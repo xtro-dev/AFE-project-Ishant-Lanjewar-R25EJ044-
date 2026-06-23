@@ -3,73 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Global News</title>
+<title>Global Times</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Global News</h1>
-    <p>Latest News Around the World</p>
-</header>
+
+<div class="logo">
+🌍 Global Times
+</div>
 
 <nav>
-    <a href="#">Home</a>
-    <a href="#">Technology</a>
-    <a href="#">Business</a>
-    <a href="#">Sports</a>
-    <a href="#">Science</a>
+
+<a href="#">Home</a>
+<a href="#">Technology</a>
+<a href="#">Business</a>
+<a href="#">Sports</a>
+<a href="#">Science</a>
+<a href="#">Health</a>
+
 </nav>
 
-<section class="news-container">
+</header>
+
+<div class="ticker">
+<marquee>
+🔴 Breaking News • AI continues to transform the world • Space agencies announce new moon missions • Global markets remain stable • Champions League season begins •
+</marquee>
+</div>
+
+<section class="hero">
+
+<h1>Today's Top Stories</h1>
+
+<p id="date"></p>
+
+<input
+type="text"
+id="search"
+placeholder="Search News...">
+
+</section>
+
+<section class="container">
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=1" alt="">
-<h2>Artificial Intelligence</h2>
-<p>AI continues to transform industries with rapid advancements in machine learning and automation.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600">
+
+<div class="content">
+
+<span>Technology</span>
+
+<h2>Artificial Intelligence Changes The Future</h2>
+
+<p>
+AI is revolutionizing industries including healthcare,
+education and software development.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=2" alt="">
-<h2>Technology</h2>
-<p>Technology companies are investing heavily in next-generation computing and cloud services.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600">
+
+<div class="content">
+
+<span>Science</span>
+
+<h2>Space Exploration Reaches New Heights</h2>
+
+<p>
+Scientists continue planning future missions to Mars and beyond.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=3" alt="">
-<h2>Sports</h2>
-<p>International sporting events continue to attract millions of fans around the globe.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=600">
+
+<div class="content">
+
+<span>Business</span>
+
+<h2>Markets Show Positive Growth</h2>
+
+<p>
+Global investors remain optimistic as technology stocks continue to rise.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=4" alt="">
-<h2>Business</h2>
-<p>Global markets remain active as companies announce new investments and partnerships.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600">
+
+<div class="content">
+
+<span>Sports</span>
+
+<h2>International Sports Continue To Grow</h2>
+
+<p>
+Fans around the world enjoy major sporting tournaments this season.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=5" alt="">
-<h2>Science</h2>
-<p>Scientists are making significant discoveries in space exploration and renewable energy.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600">
+
+<div class="content">
+
+<span>Health</span>
+
+<h2>Medical Innovation Improves Lives</h2>
+
+<p>
+Researchers develop new treatments using advanced technology.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/400/220?random=6" alt="">
-<h2>Health</h2>
-<p>Medical researchers continue developing innovative treatments to improve healthcare.</p>
-<button>Read More</button>
+
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600">
+
+<div class="content">
+
+<span>Technology</span>
+
+<h2>Quantum Computing Advances</h2>
+
+<p>
+Next-generation computing is expected to transform research and industry.
+</p>
+
+<button>❤️ Like</button>
+
+</div>
+
 </div>
 
 </section>
 
+<button id="topBtn">⬆</button>
+
 <footer>
-<p>© 2026 Global News | AFE Project | Ishant Lanjewar</p>
+
+<h2>Global Times</h2>
+
+<p>
+Developed by Ishant Lanjewar | AFE Project
+</p>
+
 </footer>
 
 <script src="script.js"></script>
